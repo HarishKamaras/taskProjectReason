@@ -1,6 +1,5 @@
 import React from 'react'
 import "./AcadamicProjectReason.css"
-// import img1 from "./HelpSericeImages/QM.png"
 import img2 from "./Acadamicimages/AcadamicImages.jpg"
 
 function AcadamicProjectReason() {
@@ -8,7 +7,7 @@ function AcadamicProjectReason() {
     <div>
 
 <section class="inner-banner">
-  {/* <img src="http://host.valintechnologies.com/~AKtech Solutionedutest/wp-content/uploads/2020/06/about-bnr.jpg" alt=""> */}
+  
  <img className='img-acadamic' src={img2} alt="Acadamic"/>
   <div class="container80">
 	<h1 className='h1-title'>Academic Projects</h1>
